@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  border-box: box-sizing;
+  font-family: Arial;
+}
+
+.flex-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#container {
+  width: 100vw;
+  height: 100vh;
+  background: radial-gradient(#949099, #33675d);
+}
+
+#tooltip {
+  width: 200px;
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: linen;
+  padding: 10px;
+}
+
+#credit > a {
+  color: linen;
+}
